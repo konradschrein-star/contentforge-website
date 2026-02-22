@@ -96,10 +96,13 @@ export function Founder() {
           {/* Left - Photo Placeholder */}
           <div className="animate-item opacity-0">
             <div className="aspect-[4/5] md:aspect-square lg:aspect-[4/5] border border-white/10 bg-white/[0.02] flex flex-col items-center justify-center group hover:border-white/20 transition-colors duration-500">
-              <div className="w-20 h-20 md:w-24 md:h-24 flex items-center justify-center border border-white/10 mb-6">
-                <User className="w-10 h-10 md:w-12 md:h-12 text-white/20 group-hover:text-white/30 transition-colors duration-300" />
-              </div>
-              <span className="text-sm text-white/30 tracking-wider uppercase">
+              <img
+                src={founderConfig.image}
+                alt={founderConfig.imageAlt}
+                className="w-full h-full object-cover rounded-md"
+                style={{ maxHeight: '320px', maxWidth: '240px' }}
+              />
+              <span className="text-sm text-white/30 tracking-wider uppercase mt-4">
                 {founderConfig.imageAlt}
               </span>
             </div>

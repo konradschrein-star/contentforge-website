@@ -261,7 +261,7 @@ export const founderConfig: FounderConfig = {
   role: "Founder, Content Forge LLC",
   bio: "Konrad founded Content Forge LLC to create structured, transparent comparison content in a digital environment often dominated by marketing-driven recommendations.",
   email: "konrad.schrein@gmail.com",
-  image: "",
+  image: "/images/Foto von mir.jpg",
   imageAlt: "Founder Photo",
 };
 
